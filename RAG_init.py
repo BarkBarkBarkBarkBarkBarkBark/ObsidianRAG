@@ -138,7 +138,7 @@ def execute_query(chain, query):
 # Main Script
 if __name__ == "__main__":
     # Path to the directory with markdown notes
-    markdown_directory = input("r"+"Path to your Obsidian Vault or Markdown Directory: ")
+    markdown_directory = input("Path to your Obsidian Vault or Markdown Directory: ")
 
     # Step 1: Load and embed markdown files
     print("Embedding markdown notes...")
